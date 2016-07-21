@@ -16,6 +16,14 @@ import a from "a";
 console.info(a);  
 export default "b";
 ```
+
+输出  
+```jsx
+    undefined;
+    b;
+```
+
+
 ## 打包结果
 ```jsx
 /******/ (function(modules) { // webpackBootstrap
